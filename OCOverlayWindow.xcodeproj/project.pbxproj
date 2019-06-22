@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		732E247122B739B4001155B1 /* OCOverlayWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 732E246F22B739B4001155B1 /* OCOverlayWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732E247922B739E5001155B1 /* OverlayWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 732E247722B739E5001155B1 /* OverlayWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732E247A22B739E5001155B1 /* OverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E247822B739E5001155B1 /* OverlayWindow.m */; };
+		732E247D22B73A55001155B1 /* UIViewController+OCOverlayWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 732E247B22B73A55001155B1 /* UIViewController+OCOverlayWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732E247E22B73A55001155B1 /* UIViewController+OCOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E247C22B73A55001155B1 /* UIViewController+OCOverlayWindow.m */; };
+		732E248122B73FE6001155B1 /* OverlayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 732E247F22B73FE6001155B1 /* OverlayViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		732E248222B73FE6001155B1 /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E248022B73FE6001155B1 /* OverlayViewController.m */; };
+		732E248522B75261001155B1 /* OCAlertWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 732E248322B75261001155B1 /* OCAlertWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732E248622B75261001155B1 /* OCAlertWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E248422B75261001155B1 /* OCAlertWindow.m */; };
+		732E248922B75391001155B1 /* AlertContainerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 732E248722B75391001155B1 /* AlertContainerController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		732E248A22B75391001155B1 /* AlertContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E248822B75391001155B1 /* AlertContainerController.m */; };
+		732E248F22B7632D001155B1 /* OCActionSheetWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 732E248D22B7632D001155B1 /* OCActionSheetWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		732E249022B7632D001155B1 /* OCActionSheetWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 732E248E22B7632D001155B1 /* OCActionSheetWindow.m */; };
+		737C22D422BE16CD00001F72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 737C22D322BE16CD00001F72 /* AppDelegate.m */; };
+		737C22D722BE16CD00001F72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 737C22D622BE16CD00001F72 /* ViewController.m */; };
+		737C22DA22BE16CD00001F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737C22D822BE16CD00001F72 /* Main.storyboard */; };
+		737C22DC22BE16CE00001F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737C22DB22BE16CE00001F72 /* Assets.xcassets */; };
+		737C22DF22BE16CE00001F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737C22DD22BE16CE00001F72 /* LaunchScreen.storyboard */; };
+		737C22E222BE16CE00001F72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 737C22E122BE16CE00001F72 /* main.m */; };
+		737C22E922BE174000001F72 /* OCOverlayWindow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732E246C22B739B4001155B1 /* OCOverlayWindow.framework */; };
+		737C22EC22BE19A700001F72 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 737C22EB22BE19A700001F72 /* NavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		737C22E622BE173A00001F72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732E246322B739B4001155B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 732E246B22B739B4001155B1;
+			remoteInfo = OCOverlayWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		732E246C22B739B4001155B1 /* OCOverlayWindow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCOverlayWindow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		732E246F22B739B4001155B1 /* OCOverlayWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCOverlayWindow.h; sourceTree = "<group>"; };
+		732E247022B739B4001155B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732E247722B739E5001155B1 /* OverlayWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlayWindow.h; sourceTree = "<group>"; };
+		732E247822B739E5001155B1 /* OverlayWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayWindow.m; sourceTree = "<group>"; };
+		732E247B22B73A55001155B1 /* UIViewController+OCOverlayWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+OCOverlayWindow.h"; sourceTree = "<group>"; };
+		732E247C22B73A55001155B1 /* UIViewController+OCOverlayWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+OCOverlayWindow.m"; sourceTree = "<group>"; };
+		732E247F22B73FE6001155B1 /* OverlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		732E248022B73FE6001155B1 /* OverlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		732E248322B75261001155B1 /* OCAlertWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCAlertWindow.h; sourceTree = "<group>"; };
+		732E248422B75261001155B1 /* OCAlertWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCAlertWindow.m; sourceTree = "<group>"; };
+		732E248722B75391001155B1 /* AlertContainerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertContainerController.h; sourceTree = "<group>"; };
+		732E248822B75391001155B1 /* AlertContainerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertContainerController.m; sourceTree = "<group>"; };
+		732E248D22B7632D001155B1 /* OCActionSheetWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCActionSheetWindow.h; sourceTree = "<group>"; };
+		732E248E22B7632D001155B1 /* OCActionSheetWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCActionSheetWindow.m; sourceTree = "<group>"; };
+		737C22D022BE16CD00001F72 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		737C22D222BE16CD00001F72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		737C22D322BE16CD00001F72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		737C22D522BE16CD00001F72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		737C22D622BE16CD00001F72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		737C22D922BE16CD00001F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		737C22DB22BE16CE00001F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		737C22DE22BE16CE00001F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		737C22E022BE16CE00001F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		737C22E122BE16CE00001F72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		737C22EA22BE19A700001F72 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		737C22EB22BE19A700001F72 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		732E246922B739B4001155B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737C22CD22BE16CD00001F72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737C22E922BE174000001F72 /* OCOverlayWindow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		732E246222B739B4001155B1 = {
+			isa = PBXGroup;
+			children = (
+				732E246E22B739B4001155B1 /* OCOverlayWindow */,
+				737C22D122BE16CD00001F72 /* Example */,
+				732E246D22B739B4001155B1 /* Products */,
+				737C22E822BE174000001F72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		732E246D22B739B4001155B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				732E246C22B739B4001155B1 /* OCOverlayWindow.framework */,
+				737C22D022BE16CD00001F72 /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732E246E22B739B4001155B1 /* OCOverlayWindow */ = {
+			isa = PBXGroup;
+			children = (
+				732E247B22B73A55001155B1 /* UIViewController+OCOverlayWindow.h */,
+				732E247C22B73A55001155B1 /* UIViewController+OCOverlayWindow.m */,
+				732E247722B739E5001155B1 /* OverlayWindow.h */,
+				732E247822B739E5001155B1 /* OverlayWindow.m */,
+				732E248322B75261001155B1 /* OCAlertWindow.h */,
+				732E248422B75261001155B1 /* OCAlertWindow.m */,
+				732E248D22B7632D001155B1 /* OCActionSheetWindow.h */,
+				732E248E22B7632D001155B1 /* OCActionSheetWindow.m */,
+				732E247F22B73FE6001155B1 /* OverlayViewController.h */,
+				732E248022B73FE6001155B1 /* OverlayViewController.m */,
+				732E248722B75391001155B1 /* AlertContainerController.h */,
+				732E248822B75391001155B1 /* AlertContainerController.m */,
+				732E246F22B739B4001155B1 /* OCOverlayWindow.h */,
+				732E247022B739B4001155B1 /* Info.plist */,
+			);
+			path = OCOverlayWindow;
+			sourceTree = "<group>";
+		};
+		737C22D122BE16CD00001F72 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				737C22D222BE16CD00001F72 /* AppDelegate.h */,
+				737C22D322BE16CD00001F72 /* AppDelegate.m */,
+				737C22EA22BE19A700001F72 /* NavigationController.h */,
+				737C22EB22BE19A700001F72 /* NavigationController.m */,
+				737C22D522BE16CD00001F72 /* ViewController.h */,
+				737C22D622BE16CD00001F72 /* ViewController.m */,
+				737C22D822BE16CD00001F72 /* Main.storyboard */,
+				737C22DB22BE16CE00001F72 /* Assets.xcassets */,
+				737C22DD22BE16CE00001F72 /* LaunchScreen.storyboard */,
+				737C22E022BE16CE00001F72 /* Info.plist */,
+				737C22E122BE16CE00001F72 /* main.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		737C22E822BE174000001F72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		732E246722B739B4001155B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732E247122B739B4001155B1 /* OCOverlayWindow.h in Headers */,
+				732E247D22B73A55001155B1 /* UIViewController+OCOverlayWindow.h in Headers */,
+				732E248F22B7632D001155B1 /* OCActionSheetWindow.h in Headers */,
+				732E248522B75261001155B1 /* OCAlertWindow.h in Headers */,
+				732E248922B75391001155B1 /* AlertContainerController.h in Headers */,
+				732E248122B73FE6001155B1 /* OverlayViewController.h in Headers */,
+				732E247922B739E5001155B1 /* OverlayWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		732E246B22B739B4001155B1 /* OCOverlayWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732E247422B739B4001155B1 /* Build configuration list for PBXNativeTarget "OCOverlayWindow" */;
+			buildPhases = (
+				732E246722B739B4001155B1 /* Headers */,
+				732E246822B739B4001155B1 /* Sources */,
+				732E246922B739B4001155B1 /* Frameworks */,
+				732E246A22B739B4001155B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCOverlayWindow;
+			productName = OCOverlayWindow;
+			productReference = 732E246C22B739B4001155B1 /* OCOverlayWindow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		737C22CF22BE16CD00001F72 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737C22E522BE16CE00001F72 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				737C22CC22BE16CD00001F72 /* Sources */,
+				737C22CD22BE16CD00001F72 /* Frameworks */,
+				737C22CE22BE16CD00001F72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				737C22E722BE173A00001F72 /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 737C22D022BE16CD00001F72 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		732E246322B739B4001155B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = lvv;
+				TargetAttributes = {
+					732E246B22B739B4001155B1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					737C22CF22BE16CD00001F72 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 732E246622B739B4001155B1 /* Build configuration list for PBXProject "OCOverlayWindow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 732E246222B739B4001155B1;
+			productRefGroup = 732E246D22B739B4001155B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				732E246B22B739B4001155B1 /* OCOverlayWindow */,
+				737C22CF22BE16CD00001F72 /* Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		732E246A22B739B4001155B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737C22CE22BE16CD00001F72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737C22DF22BE16CE00001F72 /* LaunchScreen.storyboard in Resources */,
+				737C22DC22BE16CE00001F72 /* Assets.xcassets in Resources */,
+				737C22DA22BE16CD00001F72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		732E246822B739B4001155B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732E248622B75261001155B1 /* OCAlertWindow.m in Sources */,
+				732E249022B7632D001155B1 /* OCActionSheetWindow.m in Sources */,
+				732E248A22B75391001155B1 /* AlertContainerController.m in Sources */,
+				732E247A22B739E5001155B1 /* OverlayWindow.m in Sources */,
+				732E248222B73FE6001155B1 /* OverlayViewController.m in Sources */,
+				732E247E22B73A55001155B1 /* UIViewController+OCOverlayWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737C22CC22BE16CD00001F72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737C22D722BE16CD00001F72 /* ViewController.m in Sources */,
+				737C22EC22BE19A700001F72 /* NavigationController.m in Sources */,
+				737C22E222BE16CE00001F72 /* main.m in Sources */,
+				737C22D422BE16CD00001F72 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		737C22E722BE173A00001F72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 732E246B22B739B4001155B1 /* OCOverlayWindow */;
+			targetProxy = 737C22E622BE173A00001F72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		737C22D822BE16CD00001F72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				737C22D922BE16CD00001F72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		737C22DD22BE16CE00001F72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				737C22DE22BE16CE00001F72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		732E247222B739B4001155B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		732E247322B739B4001155B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		732E247522B739B4001155B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OCOverlayWindow/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lvv.OCOverlayWindow;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		732E247622B739B4001155B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OCOverlayWindow/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = me.lvv.OCOverlayWindow;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		737C22E322BE16CE00001F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y28WQ9G7N2;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-objc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lvv.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		737C22E422BE16CE00001F72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y28WQ9G7N2;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-objc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.lvv.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		732E246622B739B4001155B1 /* Build configuration list for PBXProject "OCOverlayWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732E247222B739B4001155B1 /* Debug */,
+				732E247322B739B4001155B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732E247422B739B4001155B1 /* Build configuration list for PBXNativeTarget "OCOverlayWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732E247522B739B4001155B1 /* Debug */,
+				732E247622B739B4001155B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737C22E522BE16CE00001F72 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737C22E322BE16CE00001F72 /* Debug */,
+				737C22E422BE16CE00001F72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 732E246322B739B4001155B1 /* Project object */;
+}
